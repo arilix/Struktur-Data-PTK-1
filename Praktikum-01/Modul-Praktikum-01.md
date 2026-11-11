@@ -474,7 +474,7 @@ Bantulah Andri dengan membuatkan program yang dapat menghitung banyaknya kata pa
 > **Petunjuk:** gunakan `getline(cin, kalimat)` agar spasi ikut terbaca, lalu hitung kata berdasarkan pergantian
 > dari spasi ke karakter bukan spasi.
 
-## 1.6 Studi Kasus (*Hard Thinking*)
+## 1.6 Tugas Pendahuluan
 
 **Kembalian Kasir dengan Pecahan Terbatas**
 
@@ -497,7 +497,7 @@ Kebutuhan:
 
 **Ketentuan pengerjaan:**
 
-1. Kerjakan studi kasus di atas dengan solusi **Anda sendiri**. Tidak ada satu jawaban benar; yang dinilai adalah kualitas
+1. Kerjakan tugas pendahuluan di atas dengan solusi **Anda sendiri**. Tidak ada satu jawaban benar; yang dinilai adalah kualitas
    penalaran dan kebenaran program.
 2. Sertakan **laporan singkat (maksimal 1 halaman)** yang menjawab seluruh pertanyaan analisis dan menjelaskan alasan
    Anda memilih rancangan tersebut dibanding alternatif lain.
