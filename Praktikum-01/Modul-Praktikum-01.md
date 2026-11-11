@@ -1,8 +1,10 @@
 <p align="right"><b>Laboratorium Teknik Komputer</b></p>
 
-<p align="center"><img src="assets/logo-telkom-university.png" alt="Telkom University" width="170"></p>
+<p align="center"><b>MODUL PRAKTIKUM<br>TEKNIK KOMPUTER<br>- 1 -</b></p>
 
-<p align="center"><sub>MODUL PRAKTIKUM</sub><br><b>ALGORITMA DAN STRUKTUR DATA</b><br><b>Praktikum 1</b><br>Konsep Bahasa Pemrograman C++</p>
+<p align="center"><b>STRUKTUR DATA</b></p>
+
+<p align="center"><img src="assets/logo-telkom-university.png" alt="Telkom University" width="170"></p>
 
 <p align="center">Disusun oleh<br><b>TIM DOSEN DAN ASISTEN</b></p>
 
