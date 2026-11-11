@@ -315,17 +315,7 @@ untuk proyek yang membutuhkan performa tinggi.
 4. **Gunakan kata kerja untuk nama fungsi**, misalnya `hitungAkarKuadrat()`.
 5. **Hindari singkatan dan akronim** kecuali sudah umum di bidang Anda.
 
-## 1.3 Tugas Pendahuluan
-
-Kerjakan **sebelum** praktikum dimulai (tulis tangan atau ketik) dan kumpulkan di awal sesi.
-
-1. Apa fungsi `#include <iostream>` dan `using namespace std;` pada program C++? Mengapa fungsi `main()` mengembalikan sebuah nilai?
-2. Sebutkan lima tipe data bawaan C++ dan jelaskan kegunaan masing-masing.
-3. Jelaskan perbedaan `for`, `while`, dan `do-while`. Pada situasi apa masing-masing paling tepat dipakai?
-4. Apa keuntungan memecah program menjadi fungsi-fungsi?
-5. Sebutkan perbedaan bahasa C dan C++, serta beberapa kesalahan pemrograman umum dan dampaknya.
-
-## 1.4 Pelaksanaan Praktikum
+## 1.3 Pelaksanaan Praktikum
 
 ### a. Membuka Code::Blocks
 
@@ -437,7 +427,7 @@ Hasil pembagian   : 3
 
 > Karena kedua operan bertipe `int`, hasil pembagian `10 / 3` adalah `3` (bagian desimal dibuang).
 
-## 1.5 Latihan Soal
+## 1.4 Latihan Soal
 
 **1. Bilangan prima.** Buatlah program yang meminta input suatu bilangan, kemudian menampilkan apakah bilangan
 tersebut prima atau tidak. Apabila bukan prima, tampilkan juga angka yang dapat membagi habis bilangan tersebut.
@@ -471,7 +461,7 @@ terbesar menuju terkecil.
 | `1, 5, 2, 8, 9` | `9, 8, 5, 2, 1` |
 | `8, 1, 10, 15, 4` | `15, 10, 8, 4, 1` |
 
-## 1.6 Tugas Rumah
+## 1.5 Tugas Rumah
 
 Andri adalah anak kelas 2 SD. Ia memiliki tugas untuk menghitung banyaknya kata yang terdapat dalam suatu kalimat.
 Bantulah Andri dengan membuatkan program yang dapat menghitung banyaknya kata pada sebuah kalimat.
@@ -484,7 +474,7 @@ Bantulah Andri dengan membuatkan program yang dapat menghitung banyaknya kata pa
 > **Petunjuk:** gunakan `getline(cin, kalimat)` agar spasi ikut terbaca, lalu hitung kata berdasarkan pergantian
 > dari spasi ke karakter bukan spasi.
 
-## 1.7 Studi Kasus (*Hard Thinking*)
+## 1.6 Studi Kasus (*Hard Thinking*)
 
 **Kembalian Kasir dengan Pecahan Terbatas**
 
