@@ -6,7 +6,7 @@ Modul praktikum **Algoritma dan Struktur Data** menggunakan bahasa C++.
 
 | No | Topik | Isi |
 |:--:|-------|-----|
-| 1 | Konsep Bahasa Pemrograman C++ | [Markdown](Praktikum-01/Modul-Praktikum-01.md) · [PDF](Praktikum-01/Modul-Praktikum-01.pdf) · [Kode](Praktikum-01/kalkulator.cpp) |
+| 1 | Konsep Bahasa Pemrograman C++ | [Markdown](Praktikum-01/Modul-Praktikum-01.md) · [PDF](Praktikum-01/Modul-Praktikum-01.pdf) · [Kode](Praktikum-01/kalkulator.cpp) · [Tugas Pendahuluan](Praktikum-01/Tugas-Pendahuluan-Praktikum-01.pdf) |
 
 ## Struktur Repositori
 
@@ -14,6 +14,7 @@ Modul praktikum **Algoritma dan Struktur Data** menggunakan bahasa C++.
 Praktikum-01/
 ├── Modul-Praktikum-01.md    # modul dalam format Markdown
 ├── Modul-Praktikum-01.pdf   # modul dalam format PDF
+├── Tugas-Pendahuluan-Praktikum-01.pdf  # lembar tugas pendahuluan
 └── kalkulator.cpp           # contoh program praktikum
 ```
 
