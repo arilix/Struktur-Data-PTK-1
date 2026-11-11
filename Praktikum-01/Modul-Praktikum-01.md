@@ -313,7 +313,17 @@ untuk proyek yang membutuhkan performa tinggi.
 4. **Gunakan kata kerja untuk nama fungsi**, misalnya `hitungAkarKuadrat()`.
 5. **Hindari singkatan dan akronim** kecuali sudah umum di bidang Anda.
 
-## 1.3 Pelaksanaan Praktikum
+## 1.3 Tugas Pendahuluan
+
+Kerjakan **sebelum** praktikum dimulai (tulis tangan atau ketik) dan kumpulkan di awal sesi.
+
+1. Apa fungsi `#include <iostream>` dan `using namespace std;` pada program C++? Mengapa fungsi `main()` selalu mengembalikan nilai (`return 0;`)?
+2. Sebutkan lima tipe data bawaan C++ beserta satu contoh deklarasi dan nilai untuk masing-masing.
+3. Jelaskan perbedaan `for`, `while`, dan `do-while`. Pada kondisi apa `do-while` lebih tepat dipakai?
+4. Tuliskan fungsi `int kuadrat(int x)` yang mengembalikan kuadrat dari `x`, lalu tunjukkan cara memanggilnya dari `main()`.
+5. Sebutkan tiga perbedaan antara bahasa C dan C++, serta tiga kesalahan pemrograman umum beserta cara menghindarinya.
+
+## 1.4 Pelaksanaan Praktikum
 
 ### a. Membuka Code::Blocks
 
@@ -425,7 +435,7 @@ Hasil pembagian   : 3
 
 > Karena kedua operan bertipe `int`, hasil pembagian `10 / 3` adalah `3` (bagian desimal dibuang).
 
-## 1.4 Latihan Soal
+## 1.5 Latihan Soal
 
 **1. Bilangan prima.** Buatlah program yang meminta input suatu bilangan, kemudian menampilkan apakah bilangan
 tersebut prima atau tidak. Apabila bukan prima, tampilkan juga angka yang dapat membagi habis bilangan tersebut.
@@ -459,7 +469,7 @@ terbesar menuju terkecil.
 | `1, 5, 2, 8, 9` | `9, 8, 5, 2, 1` |
 | `8, 1, 10, 15, 4` | `15, 10, 8, 4, 1` |
 
-## 1.5 Tugas Rumah
+## 1.6 Tugas Rumah
 
 Andri adalah anak kelas 2 SD. Ia memiliki tugas untuk menghitung banyaknya kata yang terdapat dalam suatu kalimat.
 Bantulah Andri dengan membuatkan program yang dapat menghitung banyaknya kata pada sebuah kalimat.
@@ -471,3 +481,36 @@ Bantulah Andri dengan membuatkan program yang dapat menghitung banyaknya kata pa
 
 > **Petunjuk:** gunakan `getline(cin, kalimat)` agar spasi ikut terbaca, lalu hitung kata berdasarkan pergantian
 > dari spasi ke karakter bukan spasi.
+
+## 1.7 Studi Kasus (*Hard Thinking*)
+
+**Kembalian Kasir dengan Pecahan Terbatas**
+
+Sebuah minimarket ingin program kasir yang menghitung **kembalian dengan jumlah lembar/koin paling sedikit**.
+Pecahan yang tersedia: Rp100.000, 50.000, 20.000, 10.000, 5.000, 2.000, 1.000, 500, 200, dan 100.
+
+Kebutuhan:
+
+- Input: total belanja dan uang yang dibayarkan (bisa berupa angka tidak valid, negatif, atau kurang dari total).
+- Output: jumlah tiap pecahan untuk kembalian.
+- Kasus lanjutan: laci kasir hanya memiliki **stok terbatas** tiap pecahan (misalnya Rp2.000 hanya 1 lembar, Rp5.000 tidak ada).
+
+**Poin keputusan desain** — bagian inilah yang biasanya membuat solusi tiap orang berbeda. Jawab dengan alasan:
+
+1. Cara menyimpan daftar pecahan: banyak `if`, array, atau fungsi terpisah? Mana yang paling mudah diubah bila ada pecahan baru?
+2. Algoritma *greedy* (ambil pecahan terbesar dulu) selalu optimal untuk daftar pecahan di atas. Apakah masih optimal bila stok terbatas? Beri contoh angka yang membuktikannya.
+3. Bagaimana program bersikap bila kembalian **tidak mungkin** dibayar dengan stok yang ada?
+4. Di mana validasi input ditempatkan (di `main`, di fungsi sendiri, atau berulang dengan `do-while`)?
+5. Pendekatan iteratif atau rekursif: mana yang lebih jelas dibaca dan mana yang lebih mudah diuji?
+
+**Ketentuan pengerjaan:**
+
+1. Kerjakan studi kasus di atas dengan solusi **Anda sendiri**. Tidak ada satu jawaban benar; yang dinilai adalah kualitas
+   penalaran dan kebenaran program.
+2. Sertakan **laporan singkat (maksimal 1 halaman)** yang menjawab seluruh pertanyaan analisis dan menjelaskan alasan
+   Anda memilih rancangan tersebut dibanding alternatif lain.
+3. Uji program dengan **kasus tepi** dan lampirkan minimal 5 kasus uji beserta hasilnya.
+4. Diskusikan solusi Anda dengan teman: bandingkan perbedaan rancangan, lalu catat kelebihan dan kekurangannya.
+
+**Kriteria penilaian:** ketepatan hasil (30%), kerapian dan kejelasan struktur kode (20%), penanganan kasus tepi (20%),
+kualitas analisis pada laporan (30%).
