@@ -14,7 +14,6 @@ Modul praktikum **Algoritma dan Struktur Data** menggunakan bahasa C++.
 Praktikum-01/
 ├── Modul-Praktikum-01.md    # modul dalam format Markdown
 ├── Modul-Praktikum-01.pdf   # modul dalam format PDF
-├── assets/                  # logo untuk sampul
 └── kalkulator.cpp           # contoh program praktikum
 ```
 

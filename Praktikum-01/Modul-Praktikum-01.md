@@ -1,38 +1,6 @@
 <p align="right"><b>Laboratorium Teknik Komputer</b></p>
 
-<p align="center"><b>MODUL PRAKTIKUM<br>TEKNIK KOMPUTER<br>- 1 -</b></p>
-
-<p align="center"><b>STRUKTUR DATA</b></p>
-
-<p align="center"><img src="assets/logo-telkom-university.png" alt="Telkom University" width="170"></p>
-
-<p align="center">Disusun oleh<br><b>TIM DOSEN DAN ASISTEN</b></p>
-
-<p align="center"><b>TEKNIK KOMPUTER<br>DIREKTORAT<br>TELKOM UNIVERSITY SURABAYA</b></p>
-
----
-
 # Praktikum 1 — Konsep Bahasa Pemrograman C++
-
-## Daftar Isi
-
-- [1.1 Tujuan Praktikum](#11-tujuan-praktikum)
-- [1.2 Teori Singkat](#12-teori-singkat)
-  - [a. Sejarah singkat](#a-sejarah-singkat)
-  - [b. Struktur dasar program C++](#b-struktur-dasar-program-c)
-  - [c. Variabel dan tipe data](#c-variabel-dan-tipe-data)
-  - [d. Operasi input / output](#d-operasi-input--output)
-  - [e. Struktur kontrol (if-else, switch-case, perulangan)](#e-struktur-kontrol-if-else-switch-case-perulangan)
-  - [f. Fungsi](#f-fungsi)
-  - [g. Perbandingan C dan C++](#g-perbandingan-c-dan-c)
-  - [h. Prinsip-prinsip pemrograman C++](#h-prinsip-prinsip-pemrograman-c)
-- [1.3 Pelaksanaan Praktikum](#13-pelaksanaan-praktikum)
-  - [a. Membuka Code::Blocks](#a-membuka-codeblocks)
-  - [b. Program sederhana: penjumlahan, pengurangan, perkalian, dan pembagian dua angka](#b-program-sederhana-penjumlahan-pengurangan-perkalian-dan-pembagian-dua-angka)
-- [1.4 Latihan Soal](#14-latihan-soal)
-- [1.5 Tugas Rumah](#15-tugas-rumah)
-- [1.6 Tugas Pendahuluan](#16-tugas-pendahuluan)
-- [Daftar Pustaka](#daftar-pustaka)
 
 ## 1.1 Tujuan Praktikum
 
@@ -518,11 +486,3 @@ Kebutuhan:
 - Input: total belanja dan uang yang dibayarkan (bisa berupa angka tidak valid, negatif, atau kurang dari total).
 - Output: jumlah tiap pecahan untuk kembalian.
 - Kasus lanjutan: laci kasir hanya memiliki **stok terbatas** tiap pecahan (misalnya Rp2.000 hanya 1 lembar, Rp5.000 tidak ada).
-
-## Daftar Pustaka
-
-1. cppreference.com. (t.t.). *C++ reference*. Diakses 11 November 2026, dari https://en.cppreference.com/
-2. Deitel, P., & Deitel, H. (2022). *C++20 for Programmers: An Objects-Natural Approach* (3rd ed.). Pearson.
-3. International Organization for Standardization. (2024). *Programming languages — C++* (ISO/IEC 14882:2024). ISO.
-4. Stroustrup, B. (2022). *A Tour of C++* (3rd ed.). Addison-Wesley Professional.
-5. Stroustrup, B. (2024). *Programming: Principles and Practice Using C++* (3rd ed.). Addison-Wesley Professional.
