@@ -1,3 +1,5 @@
+<p align="right"><b>Laboratorium Teknik Komputer</b></p>
+
 # Praktikum 1 — Konsep Bahasa Pemrograman C++
 
 ## 1.1 Tujuan Praktikum
