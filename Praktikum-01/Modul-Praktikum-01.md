@@ -319,11 +319,11 @@ untuk proyek yang membutuhkan performa tinggi.
 
 Kerjakan **sebelum** praktikum dimulai (tulis tangan atau ketik) dan kumpulkan di awal sesi.
 
-1. Apa fungsi `#include <iostream>` dan `using namespace std;` pada program C++? Mengapa fungsi `main()` selalu mengembalikan nilai (`return 0;`)?
-2. Sebutkan lima tipe data bawaan C++ beserta satu contoh deklarasi dan nilai untuk masing-masing.
-3. Jelaskan perbedaan `for`, `while`, dan `do-while`. Pada kondisi apa `do-while` lebih tepat dipakai?
-4. Tuliskan fungsi `int kuadrat(int x)` yang mengembalikan kuadrat dari `x`, lalu tunjukkan cara memanggilnya dari `main()`.
-5. Sebutkan tiga perbedaan antara bahasa C dan C++, serta tiga kesalahan pemrograman umum beserta cara menghindarinya.
+1. Apa fungsi `#include <iostream>` dan `using namespace std;` pada program C++? Mengapa fungsi `main()` mengembalikan sebuah nilai?
+2. Sebutkan lima tipe data bawaan C++ dan jelaskan kegunaan masing-masing.
+3. Jelaskan perbedaan `for`, `while`, dan `do-while`. Pada situasi apa masing-masing paling tepat dipakai?
+4. Apa keuntungan memecah program menjadi fungsi-fungsi?
+5. Sebutkan perbedaan bahasa C dan C++, serta beberapa kesalahan pemrograman umum dan dampaknya.
 
 ## 1.4 Pelaksanaan Praktikum
 
