@@ -249,16 +249,6 @@ int main() {
 }
 ```
 
-Keluaran yang diharapkan:
-
-```text
-Masukkan kata: mobil
-Kata asli: mobil
-
-Kata yang masuk ke dalam Stack : libom
-Kata setelah dibalik : mobil
-```
-
 ## 3.5 Tugas Rumah
 
 Buatlah program **ADT stack** yang berisi data kendaraan (merek, warna, dan tahun produksi). Program memiliki
